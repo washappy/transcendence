@@ -1,0 +1,22 @@
+name: Transcendence
+version: '${project.version}'
+main: behappy.hap.Start
+api-version: 1.18
+authors: [ behappy ]
+description: stats + ability + character
+website: https://github.com/washappy
+commands:
+  stats:
+    description: stats 커멘드
+    aliases:
+      -st
+    usage: "Usage : /<command> [info/add/help/open/help]"
+  alltime:
+    description: 역대 접속자
+    aliases:
+      -at
+    usage: "Usage : /<command>"
+  ability:
+    aliases:
+      - ab
+    usage: "Usage : /<command> [character name]"
